@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+ul.list-group {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#cart-list li, #product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart-list li button, #product-list li button {
+    margin-left: 10px;
+}
