@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Kasir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ06xM3u1eG8gK6sR5HB7Vxa1VHF0sI7I9hzM/44dI/jQU0KPfFTeRiHHAR9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Aplikasi Kasir</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Daftar Produk</h3>
+                <ul id="product-list" class="list-group">
+                    <!-- Daftar produk akan muncul di sini -->
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Keranjang Belanja</h3>
+                <ul id="cart-list" class="list-group">
+                    <!-- Keranjang akan ditampilkan di sini -->
+                </ul>
+                <h4>Total: <span id="total-price">Rp 0</span></h4>
+                <button class="btn btn-success" id="checkout-btn">Bayar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybFYXVpYjM1N1u+0FE9c6o2uF1b2OlfdjNRpmexg/qP8dSxX3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0mCqzKhQde7pwi4x5R8WqSvmz9aD5e+lD6Wo+6xsU0V40Y8v" crossorigin="anonymous"></script>
+</body>
+</html>
